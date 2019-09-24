@@ -42,6 +42,7 @@ class Board extends React.Component {
     renderSquare(i){
         return <Square value={this.state.squares[i]} />;
     }
+    //test
 
     render() {
         const status = 'Nest player: X';
